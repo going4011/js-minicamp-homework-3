@@ -3,16 +3,21 @@
 ## Instructions
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
-		
+
 	* Objects
+	--A container that holds a number of information instead of just one piece of information (variable) or several pieces of similar information (array). They can have properties and methods.
 	* Properties
+	--Values that are associated with the object. For example, a user object might have a username and an age property. They can be changed.
 	* Methods
+	--A function contained in an object that is accessed with the object. For example, a block of code that says "Hello, I am" + object[username].
 	* for in loop
+	--Similar to a for loop, this loop cycles through all of the properties of an object. It can be used to print them out, look at information, manipulate it, etc.
 	* dot notation vs bracket notation
+	--Dot notation accesses bits of the object with object.property. Bracket notation accesses bits of the object with object[property]. The important thing about this is that most likely we'll use dot notation a good majority of the time. However, when using something like variables to access the object (such as numbers stored in a variable), bracket notation is required.
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.
-		
+
 	* git status
 	* git add --all
 	* git status
